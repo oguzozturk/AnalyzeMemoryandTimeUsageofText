@@ -19,5 +19,5 @@ f = open(filename,’r’)
 for line in f: 
 - do everything you need to do with ’line’ here 
 - (for example counting bigrams/trigrams)
--the line data will be deleted automatically by python
+- the line data will be deleted automatically by python
 by changing method of read file I decrease memory and time usage
