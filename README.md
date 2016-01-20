@@ -17,5 +17,7 @@ which opens the ﬁle, creates a n-gram counter class for m, counts the n-grams,
 then prints the k most frequent n-grams (reuse the code in ‘analyzeRefactor3Iterator’). 
 f = open(filename,’r’) 
 for line in f: 
-#the line data will be deleted automatically by python
+- do everything you need to do with ’line’ here 
+- (for example counting bigrams/trigrams)
+-the line data will be deleted automatically by python
 by changing method of read file I decrease memory and time usage
